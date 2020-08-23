@@ -1,0 +1,20 @@
+[user]
+	name = legobrokkori
+	email = ralirulego103@gmail.com
+[core]
+	editor = vim -c \"set fenc=utf-8\"
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	g = git
+	st = status
+	cm = commit
+	ca = commit -amend
+	co = checkout
+	df = diff
+	b = branch
+	# ファイル名のみの差分を表示する
+	difff = diff --name-only
+

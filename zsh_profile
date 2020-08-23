@@ -1,0 +1,8 @@
+# rbenv
+PATH=~/.rbenv/bin:$PATH
+PATH=~/Users/kaz/.rbenv/versions/2.6.6/bin:$PATH
+eval "$(rbenv init -)"
+PATH=~/.anyenv/envs/nodenv/bin:$PATH
+PATH="$HOME/.nodenv/bin:$PATH"
+export PATH
+eval "$(nodenv init -)"
